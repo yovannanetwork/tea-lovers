@@ -1,0 +1,60 @@
+$altura: 650px;
+@mixin spanCenter{
+	overflow: hidden;
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+}
+.fotos{
+	display: block;
+	#galeria{
+		background-image: url(../img/min-video-1-2.jpg);
+		background-size: cover;
+		height: $altura;
+		span{
+			@include spanCenter;
+		}
+	}
+		#galeria1{
+			background-image: url(../img/min-video-3.jpg);
+			background-size: cover;
+			height: $altura/2;
+			span{
+			   @include spanCenter;
+			}
+		}
+		#galeria2{
+			background-image: url(../img/min-video-5.jpg);
+			background-size: cover;
+			height: $altura/2;
+			span{
+			    @include spanCenter;
+				width: 50%;
+				margin: auto;
+			}
+		}
+	#galeria3{
+		background-image: url(../img/min-video-6.jpg);
+		background-size: cover;
+		height: $altura/2;
+		top: 325px;
+		position: relative;
+		span{
+			    @include spanCenter;
+		}
+		span{
+			overflow: hidden;
+			position: absolute;
+			left: 0;
+		}
+	}
+}
+/*-------section foto-preguntas-----*/
+.foto-preguntas{
+	color: black;
+	background-image: url(../img/parallax-2.jpg);
+	background-size: cover;
+	//position: relative;
+	top: 650px;
+}

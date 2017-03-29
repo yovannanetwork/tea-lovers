@@ -1,4 +1,173 @@
+@charset "UTF-8";
 * {
-  outline: 1px solid blue; }
+  outline: 1px solid blue;
+  margin: 0;
+  padding: 0; }
+
+body {
+  color: #fff; }
+
+/*-----section hero-------*/
+.hero {
+  background-image: url(../img/parallax-1.jpg);
+  background-size: cover; }
+  .hero .hero-logo {
+    margin: 5% auto; }
+    .hero .hero-logo .tea-love {
+      margin-left: 22%; }
+
+/*----section video------*/
+.video iframe {
+  width: 100%;
+  height: 650px; }
+
+/*-------section  pasion-------*/
+.pasion {
+  background-image: url(../img/parallax-3.jpg);
+  background-size: cover; }
+  .pasion .logo-tea {
+    margin: 5% auto; }
+    .pasion .logo-tea .texto {
+      margin: 10% auto; }
+      .pasion .logo-tea .texto h1 {
+        text-transform: uppercase;
+        position: relative;
+        letter-spacing: 10px;
+        font-size: 70px; }
+        .pasion .logo-tea .texto h1 span {
+          display: inline-block;
+          padding: 0 30px; }
+      .pasion .logo-tea .texto p {
+        width: 50%;
+        margin: auto;
+        font-size: 20px;
+        text-align: left; }
+
+/*------seccion colores de t├¿---------*/
+.colores {
+  margin: 70px auto;
+  color: #000; }
+  .colores ul li {
+    width: 19%;
+    overflow: hidden; }
+    .colores ul li h2 {
+      color: #d16d6d; }
+
+/*------section galeria de gotos----*/
+.fotos {
+  display: block; }
+  .fotos #galeria {
+    background-image: url(../img/min-video-1-2.jpg);
+    background-size: cover;
+    height: 650px; }
+    .fotos #galeria span {
+      overflow: hidden;
+      position: absolute;
+      top: 50%;
+      left: 0;
+      right: 0; }
+  .fotos #galeria1 {
+    background-image: url(../img/min-video-3.jpg);
+    background-size: cover;
+    height: 325px; }
+    .fotos #galeria1 span {
+      overflow: hidden;
+      position: absolute;
+      top: 50%;
+      left: 0;
+      right: 0; }
+  .fotos #galeria2 {
+    background-image: url(../img/min-video-5.jpg);
+    background-size: cover;
+    height: 325px; }
+    .fotos #galeria2 span {
+      overflow: hidden;
+      position: absolute;
+      top: 50%;
+      left: 0;
+      right: 0;
+      width: 50%;
+      margin: auto; }
+  .fotos #galeria3 {
+    background-image: url(../img/min-video-6.jpg);
+    background-size: cover;
+    height: 325px;
+    top: 325px;
+    position: relative; }
+    .fotos #galeria3 span {
+      overflow: hidden;
+      position: absolute;
+      top: 50%;
+      left: 0;
+      right: 0; }
+    .fotos #galeria3 span {
+      overflow: hidden;
+      position: absolute;
+      left: 0; }
+
+/*-------section foto-preguntas-----*/
+.foto-preguntas {
+  color: black;
+  background-image: url(../img/parallax-2.jpg);
+  background-size: cover;
+  top: 650px; }
+
+/*-----section preguntas-------*/
+.pregunta {
+  color: #000;
+  overflow: hidden; }
+  .pregunta .foto1 {
+    height: 650px;
+    background: #e5ca96; }
+  .pregunta .foto2 {
+    background: #64d371;
+    height: 650px; }
+  .pregunta .foto3 {
+    background: #deb1cf;
+    height: 650px; }
+  .pregunta .texto2, .pregunta .texto3 {
+    height: 640px; }
+
+/*---------seccion campos------------*/
+.campos {
+  background-image: url(../img/parallax-4.jpg);
+  background-size: cover;
+  height: 650px; }
+  .campos .logo-tea {
+    margin: 5% auto; }
+  .campos h1 {
+    text-transform: uppercase;
+    position: relative;
+    letter-spacing: 10px;
+    font-size: 70px; }
+    .campos h1 span {
+      display: inline-block;
+      padding: 0 30px; }
+
+/*----------secccion slider-----------*/
+.slider .carousel-inner > .item > img,
+.slider .carousel-inner > .item > a > img {
+  width: 70%;
+  margin: auto; }
+.slider .carousel-inner img {
+  width: 100%; }
+
+/*------seccion  info-te------*/
+.info-te {
+  margin: 5% auto;
+  margin-bottom: 0; }
+  .info-te hr {
+    border: 2px solid #000;
+    width: 50px; }
+  .info-te ul {
+    margin-bottom: 50px;
+    margin-top: 40px;
+    margin-left: 30px; }
+
+/*-------seccion footer-------*/
+footer {
+  background: #413c3c; }
+  footer ul li {
+    padding: 0 80px; }
 
 /*# sourceMappingURL=main.css.map */

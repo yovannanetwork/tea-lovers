@@ -1,0 +1,11 @@
+//  hero
+.hero{
+	background-image: url(../img/parallax-1.jpg);
+	background-size: cover;
+	.hero-logo{
+		@include marginSeccion;
+		.tea-love{
+			margin-left: 22%;
+		}
+	}
+}

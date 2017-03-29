@@ -1,0 +1,58 @@
+@mixin posicion-texto{
+	position: relative;
+	top: 50%;
+	left: 0;
+	right: 0;
+}
+.pregunta{
+	color: #000;
+	overflow: hidden;
+	.foto1{	
+		height: 650px;
+		background: rgb(229, 202, 150);
+	}
+	.foto2{
+		background: rgb(100, 211, 113);
+		height: 650px;
+	}
+	.foto3{
+		background: rgb(222, 177, 207);
+		height: 650px;
+	}
+	.texto2{
+		height: 640px;
+	}
+	.texto3{
+		@extend .texto2;
+		
+		//@include posicion-texto;
+	}
+
+}
+
+
+/*---------seccion campos------------*/
+.campos{
+	background-image: url(../img/parallax-4.jpg);
+	background-size: cover;
+	height: 650px;
+	.logo-tea{
+		@include marginSeccion;
+	}
+	h1{
+		@include titleh1;
+	}
+}
+/*----------secccion slider-----------*/
+.slider{
+	.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+	.carousel-inner{
+		img{
+			width: 100%;
+		}
+	}
+}
