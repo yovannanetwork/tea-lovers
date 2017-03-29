@@ -11,15 +11,32 @@
     <link rel="stylesheet" type="text/css" href="css/main.css">
   <link rel="stylesheet" type="text/css" href="css/animate.css">
   <link rel="stylesheet" type="text/css" href="css/app.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body class="text-center">
 	<header>
-		
+		<div class="mobile-nav-bar">
+		  <div class="mobile-nav-button">
+			<i class="bar"></i>
+			<i class="bar"></i>
+			<i class="bar"></i>
+		  </div> 
+		</div>
+
+		<nav class="mobile-nav">
+		<div class="container-fluid">
+		<div class="miclase"> 
+		</div>
+			<ul class="text-center">
+			<li><a href="#home">Home</a></li>
+			<li><a href="#pasion">Nuestra Pasión</a></li>
+			<li><a href="#preguntas">Preguntas</a></li>
+			<li><a href="#campos">Los Campos</a></li>
+		  </ul>
+		</div>
+		</nav>
 	</header>
 	<!--------------------section hero------------>
-	<section class="hero">
+	<section class="hero"><a id="home"></a>
 		<div class="container">
 			<div class="row">
 				<div class="hero-logo">
@@ -97,7 +114,7 @@
 				</div>
 	</section>
 		<!----------------section posibles preguntas------------------>
-	<section class="foto-preguntas">
+	<section class="foto-preguntas"><a id="preguntas"></a>
 		<div class="container">
 			<div class="row">
 				<div class="logo-tea">
@@ -137,7 +154,7 @@
 				</div>
 	</section>
 		<!----------------section campos------------------>
-	<section class="campos">
+	<section class="campos"><a id="pasion"></a>
 		<div class="container">
 			<div class="row">
 				<div class="logo-tea">
@@ -221,6 +238,8 @@
 	</footer>
 
 <!-- Scripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="//code.jquery.com/jquery-2.1.1.min.js"></script>
   <script type="text/javascript" src="//use.fontawesome.com/a4f2ba36c5.js"></script>
   <script src="js/jquery.localscroll-1.2.7-min.js"></script>

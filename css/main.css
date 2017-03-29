@@ -170,4 +170,22 @@ footer {
   footer ul li {
     padding: 0 80px; }
 
+/*------header-------*/
+header {
+  margin-top: 20px; }
+  header .principal-menu li {
+    font-size: 14px;
+    margin: 10px;
+    list-style: none; }
+    header .principal-menu li a {
+      color: white; }
+  header .logus {
+    margin-top: 10px; }
+  header .tapita {
+    margin-top: 10px; }
+  header .tea-lovers .principal {
+    padding-top: 80px; }
+  header .tea-lovers .scroll {
+    padding-top: 55px; }
+
 /*# sourceMappingURL=main.css.map */
